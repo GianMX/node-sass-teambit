@@ -1,1 +1,1 @@
-node-sass-teambit
+html-sass-first
