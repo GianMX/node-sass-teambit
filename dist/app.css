@@ -391,3 +391,25 @@ footer .docker ul li a {
   text-decoration: none;
 }
 
+@media all and (max-width: 768px) {
+  .navbar,
+  .ctas,
+  .btn {
+    display: none;
+  }
+
+  .burger {
+    display: inline-block;
+  }
+
+  header .docker {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .burger {
+    display: none;
+  }
+}
+

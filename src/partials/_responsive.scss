@@ -1,0 +1,25 @@
+// ======================= 480px ============================
+@media all and (min-width:480px) {
+
+}
+
+// ======================= 768px ============================
+@media all and (max-width:768px) {
+  // COMMON
+  .navbar, .ctas, .btn {
+    display: none;
+  }
+  .burger {
+    display: inline-block;
+  }
+  header .docker {
+    width : 100%;
+  }
+}
+
+// ======================= 960px ============================
+@media all and (min-width:769px) {
+  .burger {
+    display: none;
+  }
+}
