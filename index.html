@@ -2,16 +2,259 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TeamBit</title>
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- JQUERY 3.4.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- HANDLEBARS 4.7.6 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js"></script>
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
     <!-- CSS DIST FROM SCSS -->
     <link rel="stylesheet" href="dist/app.css">
   </head>
   <body>
+    <div class="wrap">
+      <!-- HEADER + NAVBAR -->
+      <header>
+        <nav>
+          <div class="logo">
+            <img src="additions/img/logo.svg" alt="Teambit smile">
+          </div>
+          <!-- <i class="fas fa-bars"></i> BURGER MENU READY -->
+          <div class="navbar">
+            <ul>
+              <li><a href="#">Solutions<i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </div>
+          <a href="#" class="btn"><span class="google-logo"><img src="additions/img/google-logo.svg" alt="gmail"></span>Sign up</a>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!-- JUMBO -->
+        <div class="docker">
+          <hr>
+          <div class="jumbotron">
+            <div class="text">
+              <h1>Understand, recognize and develop your people</h1>
+              <p>Teambit helps teams create a high performing culutre with regular feedback.</p>
+              <div class="ctas">
+                <a href="#" class="btn"><span class="google-logo"><img src="additions/img/google-logo.svg" alt="logo google"></span>Sign Up with Google</a>or
+                <a href="#" class="btn"><span class="slack-logo"><img src="additions/img/slack-logo.svg" alt="logo slack"></span>Sign Up with Slack</a>
+                <a href="#" class="cta">Or use your email adress <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <!-- JUMBO IMAGE -->
+            <div class="image-container"><img src="additions/img/illustration-main.jpg" alt="illustrationmain"></div>
+          </div>
+        <!-- END JUMBO -->
+        </div>
+      </header>
+      <!-- END HEADER -->
+
+      <!-- MAIN WO/W US & FEEDBACK & FOUNDER -->
+      <main>
+        <!-- SECITION WITHOUT US -->
+        <section id="without" class="main_background">
+          <div class="docker">
+            <h2>Traditional people processes lead to</h2>
+            <div class="images-row">
+              <div class="box">
+                <img src="additions/img/hardcore.png" alt="hardcore">
+                <p>They are hardcore, formal and disconnected</p>
+              </div>
+              <div class="box">
+                <img src="additions/img/nofeedback.png" alt="nofeedback">
+                <p>They don't encourage regular feedback</p>
+              </div>
+              <div class="box">
+                <img src="additions/img/notsafe.png" alt="notsafe">
+                <p>They don't make it safe to speak up</p>
+              </div>
+            </div>
+            <div class="image-full-row">
+              <img src="additions/img/before.png" alt="before">
+            </div>
+          </div>
+        </section>
+        <!-- END SECTION WITHOUT US -->
+
+        <!-- SECTION WITH US -->
+        <section id="with_us" class="main_background">
+          <div class="docker">
+            <h2>It doesn't have to be like that. Teambit is a modern solution that teammates love.</h2>
+            <div class="images-row">
+              <div class="box">
+                <img src="additions/img/lightweight.png" alt="lightweight">
+                <p>It's lightweight fun and interconnected</p>
+              </div>
+              <div class="box">
+                <img src="additions/img/feedbacksuggestions.png" alt="feedsuggestion">
+                <p>It encourages regular feedback with contextual requests</p>
+              </div>
+              <div class="box">
+                <img src="additions/img/safe.png" alt="safe">
+                <p>It creates a safe enviroment for dialog</p>
+              </div>
+            </div>
+            <div class="image-full-row">
+              <img src="additions/img/after.png" alt="after">
+            </div>
+            <h2>Here is how it works</h2>
+          </div>
+        </section>
+        <!-- END SECTION WITH US -->
+
+        <!-- HOW WE WORK PART 1 FEEDBACK -->
+        <section id="feedback" class="sec_background">
+          <div class="image-container">
+            <img src="additions/img/employee-feedback.jpg" alt="employeefeedback">
+          </div>
+          <div class="text">
+            <h2>Feedback to help teammates improve</h2>
+            <p>Empower your teammates to know in real time what they are doing well and what they need to improve.</p>
+            <a href="#" class="cta">Learn more<i class="fas fa-chevron-right"></i></a>
+            <div class="sub-img">
+              <img src="additions/img/communication.jpg" alt="communication">
+            </div>
+          </div>
+        </section>
+
+        <!-- HOW WE WORK PART 2  SURVEYS-->
+        <section id="surveys" class="sec_background">
+          <div class="image-container">
+            <img src="additions/img/employee-survey.jpg" alt="employeesurvey">
+          </div>
+          <div class="text">
+            <h2>Surveys to help the team be better</h2>
+            <p>Get real-time insights into your team with research-backed, lightweight and regular surveys.</p>
+            <a href="#" class="cta">Learn more<i class="fas fa-chevron-right"></i></a>
+            <div class="sub-img">
+            <img src="additions/img/insights.jpg" alt="insights">
+              </div>
+          </div>
+        </section>
+
+        <!-- HOW WE WORK PART 3 REVIEWS -->
+        <section id="reviews" class="sec_background">
+          <div class="image-container">
+            <img src="additions/img/performance-review.jpg" alt="performancereview">
+          </div>
+          <div class="text">
+            <h2>Reviews to help teammates get a fair evaluation</h2>
+            <p>Make better compensation and promotion decisions with objective and quick performance reviews.</p>
+            <a href="#" class="cta">Learn more<i class="fas fa-chevron-right"></i></a>
+            <div class="sub-img">
+              <img src="additions/img/review.jpg" alt="review">
+            </div>
+          </div>
+        </section>
+
+        <!-- HOW WE WORK PART 4 HELP -->
+        <section id="help" class="sec_background">
+          <div class="image-container">
+            <img src="additions/img/employee-survey.jpg" alt="employeesurvey">
+          </div>
+          <div class="text">
+            <h2>Praise to help teammates feel valued</h2>
+            <p>Make it a habit to recognize and praise people who do great work.</p>
+            <a href="#" class="cta">Learn more<i class="fas fa-chevron-right"></i></a>
+            <div class="sub-img">
+              <img src="additions/img/recognition.jpg" alt="recognition">
+            </div>
+          </div>
+        </section>
+
+        <!-- FOUNDER BACKGROUND -->
+        <section id="founders" class="main_background">
+          <div class="docker">
+            <h2>See Teambit for yourself. <br> Get Started in seconds <span><img src="additions/img/happy.svg" alt="happy"></span></h2>
+            <div class="founder-box">
+              <i class="fas fa-quote-left"></i>
+              <p>My name is Yoshikage Kira. I'm 33 years old. My house is in the northeast section of Morioh, where all the villas are, and I am not married. I work as an employee for the Kame Yu department stores, and I get home every day by 8 PM at the latest. I don't smoke, but I occasionally drink.</p>
+              <p>I'm in bed by 11 PM, and make sure I get eight hours of sleep, no matter what. After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, I usually have no problems sleeping until morning. Just like a baby, I wake up without any fatigue or stress in the morning. I was told there were no issues at my last check-up.</p>
+              <p>I'm trying to explain that I'm a person who wishes to live a very quiet life. I take care not to trouble myself with any enemies, like winning and losing, that would cause me to lose sleep at night. That is how I deal with society, and I know that is what brings me happiness. Although, if I were to fight I wouldn't lose to anyone.</p>
+              <div class="founder-pics">
+                <span><img src="additions/img/alex.png" alt="alex"></span>
+                <span><img src="additions/img/bohdan.png" alt="bohdan"></span>
+                <div class="text">
+                  <span class="names">Yoshikage Kira e Kosaku Kawajiri</span>
+                  <span>Co-founder at Diamond is Unbreakable</span>
+                </div>
+              </div>
+            </div>
+            <div class="ctas">
+              <a href="#" class="btn"><span class="google-logo"><img src="additions/img/google-logo.svg" alt="logo google"></span>Sign Up with Google</a> or
+              <a href="#" class="btn"><span class="slack-logo"><img src="additions/img/slack-logo.svg" alt="logo slack"></span>Sign Up with Slack</a>
+              <a href="#" class="cta">Or use your email adress <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- END MAIN -->
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="docker">
+          <div class="text">
+            <div class="logo-container">
+              <img src="additions/img/logo-small.svg" alt="teambit smile">
+            </div>
+            <p><span>Teambit</span> helps team create high performing cultures by making feedbakc a daily habit.</p>
+          </div>
+          <div class="lists">
+          <!-- PRODUCT -->
+          <ul>
+            <li><h3>PRODUCT</h3></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+
+          </ul>
+          <!-- ABOUT -->
+          <ul>
+            <li><h3>ABOUT</h3></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+          </ul>
+          <!-- CONNECT -->
+          <ul>
+            <li><h3>CONNECT</h3></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+          </ul>
+          <!-- LOBS -->
+          <ul>
+            <li><h3>LOBS</h3></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+          </ul>
+          <!-- BLOG -->
+          <ul>
+            <li><h3>BLOG</h3></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Feedback</a></li>
+          </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- END FOOTER -->
+    </div>
   </body>
 </html>

@@ -1,0 +1,55 @@
+// GENERAL RULES
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+// BODY MARGIN FOR NAVBAR
+body{
+  margin-top: $nav_height;
+}
+// CONTAINER SIZE
+.docker {
+  width: 80%;
+  margin: 0 auto;
+}
+
+// BACKGROUND-COLOR SECTION
+.main_background{
+  background-color: $main_color;
+}
+
+.sec_background{
+  background-color: $secondary_color;
+}
+
+// VARIOUS COMMON RULES H2/SECTION/HR
+section{
+  padding: 50px 0;
+}
+h2{
+  margin-bottom: 50px;
+  color: $main_text_color;
+  font-size: 30px;
+  font-weight: $main_text_weigth;
+}
+hr{
+  color: $main_text_color;
+}
+
+// CALL TO ACTION
+.cta{
+  @include cta-text;
+}
+
+// BTN RULES
+.btn{
+  @include reset-link;
+  color: $secondary_color;
+  @include button;
+
+  img{
+    @include button-logos;
+  }
+}

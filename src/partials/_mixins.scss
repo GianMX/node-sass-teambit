@@ -1,0 +1,115 @@
+// NAVBAR FIXED
+@mixin fixed-nav{
+  position: fixed;
+  top: 0;
+  padding: 0 10%;
+  width: 100%;
+}
+
+// FLEX
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+// CLEAR DECORATION
+@mixin reset-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@mixin reset-link {
+  text-decoration: none;
+}
+
+// BUTTON RULES
+@mixin button{
+  background-color: $accent;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+@mixin button-logos{
+  width: 15px;
+  margin-right: 5px;
+}
+
+// TYPOGRAPHY
+@mixin cta-text{
+  @include reset-link;
+  display: block;
+  margin-top: 25px;
+  color: $main_text_color;
+}
+@mixin text-center{
+  text-align: center;
+}
+
+
+// ***MAIN SECTIONS *** //
+@mixin section-setup{
+  @include flex-col;
+  @include text-center;
+}
+@mixin section-first{
+  @include section-setup;
+  .images-row{
+    @include flex-row;
+    justify-content: space-between;
+    .box img{
+      height: 120px;
+    }
+    .box p{
+      margin: 50px 0;
+    }
+  }
+
+  .image-full-row{
+    padding: 50px 0;
+    img {
+      height: 350px;
+      margin: 60px 0;
+    }
+  }
+}
+
+@mixin section-wide{
+  @include flex-row;
+  width: 100%;
+  .image-container{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+  .text{
+    @include flex-col;
+    width: 25%;
+
+    h2{
+      font-size: 40px;
+    }
+
+    p{
+      font-size: 25px;
+      color: $main_text_color;
+    }
+
+    a{
+      color: $accent;
+      font-size: 30px;
+    }
+    .sub-img{
+      margin-top: 50px;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

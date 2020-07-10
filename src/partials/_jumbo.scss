@@ -1,0 +1,26 @@
+// JUMBOTRON RULES
+.jumbotron {
+  @include flex-row;
+  width: 100%;
+  margin: 50px auto;
+  .text{
+    width: 50%;
+    color: $main_text_color;
+    h1{
+      font-size: 50px;
+      line-height: 90px;
+    }
+    p{
+      font-size: 25px;
+      line-height: 40px;
+      margin: 25px 0;
+    }
+  }
+// JUMBOTRON IMAGE
+  .image-container{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+}

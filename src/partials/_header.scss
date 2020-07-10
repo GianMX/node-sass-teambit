@@ -1,0 +1,27 @@
+// NAVIGATION BAR RULES
+nav {
+  @include flex-row;
+  @include fixed-nav;
+  align-items: center;
+  justify-content: space-between;
+  height: $nav_height;
+  background-color: $secondary_color;
+  z-index: 9000;
+  .logo{
+    width: 50%;
+  }
+  .navbar ul{
+    @include flex-row;
+    @include reset-list;
+
+    i {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+  }
+  .navbar a{
+    @include reset-link;
+    color: $main_text_color;
+    padding: 15px;
+  }
+}
