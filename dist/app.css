@@ -405,6 +405,15 @@ footer .docker ul li a {
   header .docker {
     width: 100%;
   }
+
+  footer .docker .text {
+    display: block;
+    width: 100%;
+  }
+
+  footer .docker .lists {
+    display: inline-block;
+  }
 }
 
 @media all and (min-width: 769px) {

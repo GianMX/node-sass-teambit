@@ -15,6 +15,13 @@
   header .docker {
     width : 100%;
   }
+  footer .docker .text {
+    display: block;
+    width: 100%;
+  }
+  footer .docker .lists {
+    display:inline-block;
+  }
 }
 
 // ======================= 960px ============================
